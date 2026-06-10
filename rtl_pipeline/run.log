@@ -1,0 +1,89 @@
+==================================================================
+  AES-GCM-256 Throughput Benchmark (10Gb Ethernet simulation)
+==================================================================
+[TB] Starting GCM throughput test for 16000 bytes payload...
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=30 | aes_out_cnt=22 | ghash_in=22 | ghash_out=21 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=23 | received=22
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=80 | aes_out_cnt=72 | ghash_in=72 | ghash_out=71 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=73 | received=72
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=130 | aes_out_cnt=122 | ghash_in=122 | ghash_out=121 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=123 | received=122
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=180 | aes_out_cnt=172 | ghash_in=172 | ghash_out=171 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=173 | received=172
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=230 | aes_out_cnt=222 | ghash_in=222 | ghash_out=221 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=223 | received=222
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=280 | aes_out_cnt=272 | ghash_in=272 | ghash_out=271 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=273 | received=272
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=330 | aes_out_cnt=322 | ghash_in=322 | ghash_out=321 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=323 | received=322
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=380 | aes_out_cnt=372 | ghash_in=372 | ghash_out=371 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=373 | received=372
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=430 | aes_out_cnt=422 | ghash_in=422 | ghash_out=421 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=423 | received=422
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=480 | aes_out_cnt=472 | ghash_in=472 | ghash_out=471 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=473 | received=472
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=530 | aes_out_cnt=522 | ghash_in=522 | ghash_out=521 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=523 | received=522
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=580 | aes_out_cnt=572 | ghash_in=572 | ghash_out=571 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=573 | received=572
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=630 | aes_out_cnt=622 | ghash_in=622 | ghash_out=621 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=623 | received=622
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=680 | aes_out_cnt=672 | ghash_in=672 | ghash_out=671 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=673 | received=672
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=730 | aes_out_cnt=722 | ghash_in=722 | ghash_out=721 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=723 | received=722
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=780 | aes_out_cnt=772 | ghash_in=772 | ghash_out=771 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=773 | received=772
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=830 | aes_out_cnt=822 | ghash_in=822 | ghash_out=821 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=823 | received=822
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=880 | aes_out_cnt=872 | ghash_in=872 | ghash_out=871 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=873 | received=872
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=930 | aes_out_cnt=922 | ghash_in=922 | ghash_out=921 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=923 | received=922
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=980 | aes_out_cnt=972 | ghash_in=972 | ghash_out=971 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=973 | received=972
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=998 | aes_out_cnt=990 | ghash_in=990 | ghash_out=989 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=991 | received=990
+[DEBUG] Time=0 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=998 | aes_out_cnt=991 | ghash_in=991 | ghash_out=990 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=991 | received=991
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=999 | aes_out_cnt=991 | ghash_in=991 | ghash_out=990 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=992 | received=991
+[DEBUG] Time=0 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=999 | aes_out_cnt=992 | ghash_in=992 | ghash_out=991 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=992 | received=992
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=992 | ghash_in=992 | ghash_out=991 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=993 | received=992
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=993 | ghash_in=993 | ghash_out=992 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=993 | received=993
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=993 | ghash_in=993 | ghash_out=992 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=994 | received=993
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=994 | ghash_in=994 | ghash_out=993 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=994 | received=994
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=994 | ghash_in=994 | ghash_out=993 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=995 | received=994
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=995 | ghash_in=995 | ghash_out=994 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=995 | received=995
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=995 | ghash_in=995 | ghash_out=994 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=996 | received=995
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=996 | ghash_in=996 | ghash_out=995 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=996 | received=996
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=996 | ghash_in=996 | ghash_out=995 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=997 | received=996
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=997 | ghash_in=997 | ghash_out=996 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=997 | received=997
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=997 | ghash_in=997 | ghash_out=996 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=998 | received=997
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=998 | ghash_in=998 | ghash_out=997 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=998 | received=998
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=998 | ghash_in=998 | ghash_out=997 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=999 | received=998
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=999 | ghash_in=999 | ghash_out=998 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=999 | received=999
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=999 | ghash_in=999 | ghash_out=998 | data_ready=1 | data_val_in=1 | data_val_out=1 | stall_aes=0 | sent=1000 | received=999
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=999 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=999 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=7 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+==================================================================
+  Throughput Results:
+==================================================================
+  Total Payload Size: 16000 bytes (128000 bits)
+  Total Clock Cycles: 2069
+  Cycles per Block  : 2.07
+  Effective Gbps at 156.25 MHz clock:
+  Throughput        : 9.67 Gbps
+==================================================================
+[DEBUG] Time=0 | state=8 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000
+[DEBUG] Time=0 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=1000 | aes_out_cnt=1000 | ghash_in=1000 | ghash_out=1000 | data_ready=0 | data_val_in=0 | data_val_out=0 | stall_aes=0 | sent=1000 | received=1000

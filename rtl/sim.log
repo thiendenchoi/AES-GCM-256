@@ -1,0 +1,1225 @@
+==================================================================
+  AES-GCM-256 RTL Simulation Testbench
+  Testing NIST SP 800-38D, Test Case 13
+==================================================================
+[DEBUG GCM] state_q=x, start_i=0, ready_o=x
+[DEBUG CORE_KEY_LATCH] load_key_i=0, key_expand_ready=x
+[DEBUG CORE] state_q=x, start_i=0, ready_o=x
+[DEBUG GF] state_q=x, start_i=0
+[DEBUG KEY_EXP_MAIN] state_q=x, start_i=0
+[DEBUG GCM] state_q=0, start_i=0, ready_o=0
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=0
+[DEBUG GF] state_q=0, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG CORE_KEY_LATCH] load_key_i=0, key_expand_ready=1
+[DEBUG KEY_EXP_SUBWORD] step_q=0
+[DEBUG GCM] state_q=0, start_i=0, ready_o=1
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+Time=0d | rst_n=0 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+Time=40000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[TB] Starting GCM encryption...
+[DEBUG GCM] state_q=0, start_i=1, ready_o=1
+Time=91000d | rst_n=1 | state=0 | ready=1 | start=1 | data_ready=0 | done=0
+[DEBUG GCM] state_q=1, start_i=1, ready_o=1
+[DEBUG CORE_KEY_LATCH] load_key_i=1, key_expand_ready=1
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=1
+Time=110000d | rst_n=1 | state=1 | ready=0 | start=1 | data_ready=0 | done=0
+[TB] Waiting for data_ready to feed plaintext block...
+[DEBUG GCM] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_KEY_LATCH] load_key_i=1, key_expand_ready=1
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=1
+Time=111000d | rst_n=1 | state=1 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG CORE_KEY_LATCH] load_key_i=1, key_expand_ready=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=1
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=2
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=3
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=4
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=5
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=6
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=7
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=8
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=9
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=10
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=11
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG KEY_EXP_SUBWORD] step_q=12
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_MAIN] state_q=1, start_i=0
+[DEBUG CORE_KEY_LATCH] load_key_i=1, key_expand_ready=0
+[DEBUG KEY_EXP_MAIN] state_q=2, start_i=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=0
+[DEBUG KEY_EXP_SUBWORD] step_q=12
+[DEBUG CORE_KEY_LATCH] load_key_i=1, key_expand_ready=1
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=1
+[DEBUG GCM] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=1
+[DEBUG CORE_KEY_LATCH] load_key_i=0, key_expand_ready=1
+[DEBUG GCM] state_q=1, start_i=0, ready_o=0
+[DEBUG KEY_EXP_MAIN] state_q=0, start_i=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE] state_q=0, start_i=1, ready_o=1
+Time=430000d | rst_n=1 | state=2 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG CORE] state_q=1, start_i=1, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG GCM] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG GCM] state_q=5, start_i=0, ready_o=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=1
+[DEBUG GCM] state_q=5, start_i=0, ready_o=0
+Time=750000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=0, start_i=1, ready_o=1
+Time=770000d | rst_n=1 | state=6 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG CORE] state_q=1, start_i=1, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG GCM] state_q=6, start_i=0, ready_o=0
+[DEBUG CORE] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG GCM] state_q=7, start_i=0, ready_o=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=1
+[DEBUG GCM] state_q=7, start_i=0, ready_o=0
+Time=1090000d | rst_n=1 | state=7 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext: 00000000000000000000000000000000
+[DEBUG GCM] state_q=7, start_i=0, ready_o=0
+[TB] Received Ciphertext: cea7403d4d606b6e074ec5d3baf39d18
+[TB] SUCCESS: Ciphertext matches NIST Test Case 13!
+Time=1111000d | rst_n=1 | state=7 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=0, start_i=1
+Time=1130000d | rst_n=1 | state=8 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=0, start_i=1
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=8, start_i=0, ready_o=0
+[DEBUG GF] state_q=2, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=0, start_i=1
+Time=3730000d | rst_n=1 | state=9 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=1, start_i=0
+[DEBUG GCM] state_q=9, start_i=0, ready_o=0
+[DEBUG GF] state_q=2, start_i=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG GF] state_q=0, start_i=0
+[DEBUG CORE] state_q=0, start_i=1, ready_o=1
+Time=6330000d | rst_n=1 | state=10 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG CORE] state_q=1, start_i=1, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=1
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=2
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=3
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=4
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=5
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=6
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=7
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=8
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=9
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=10
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=11
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=12
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=13
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=1, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG GCM] state_q=10, start_i=0, ready_o=0
+[DEBUG CORE] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE] state_q=2, start_i=0, ready_o=0
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG CORE_RESULT] round_q=14
+[DEBUG GCM] state_q=11, start_i=0, ready_o=0
+[DEBUG CORE] state_q=0, start_i=0, ready_o=1
+[TB] Received Tag:        d0d1c8a799996bf0265b98b5d48ab919
+[TB] SUCCESS: Tag matches NIST Test Case 13!
+
+>>> TEST PASSED! <<<
+[DEBUG GCM] state_q=11, start_i=0, ready_o=0
+Time=6650000d | rst_n=1 | state=11 | ready=0 | start=0 | data_ready=0 | done=1
+[DEBUG GCM] state_q=0, start_i=0, ready_o=0
+Time=6670000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+==================================================================

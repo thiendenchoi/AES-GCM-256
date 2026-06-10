@@ -1,0 +1,520 @@
+VCD info: dumpfile tb_aes_gcm_256_pipelined.vcd opened for output.
+==================================================================
+  AES-GCM-256 Pipelined Simulation Testbench
+==================================================================
+
+========================================================
+  STARTING TEST CASE 1
+========================================================
+Time=0d | rst_n=0 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=3000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=10000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=16000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=22000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=29000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=35000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=40000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=42000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=42000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=48000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=48000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=54000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=54000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=61000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=61000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=67000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=67000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=74000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=74000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=80000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=80000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[TB] Starting GCM encryption...
+Time=81000d | rst_n=1 | state=0 | ready=1 | start=1 | data_ready=0 | done=0
+[DEBUG] Time=86000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=86000d | rst_n=1 | state=1 | ready=0 | start=1 | data_ready=0 | done=0
+Time=87000d | rst_n=1 | state=1 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=93000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=99000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=106000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=112000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=118000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=125000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=131000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=138000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=144000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=150000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=157000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=163000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=170000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=176000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=182000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=189000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 0 (Key Expansion): Completed successfully.
+Time=189000d | rst_n=1 | state=2 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=195000 | state=2 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=202000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=208000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=214000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=221000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=227000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=234000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=240000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=246000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=253000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=259000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=266000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=272000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=278000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=285000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=291000 | state=2 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 1 (Subkey H):      H = AES(K, 0) = dc95c078a2408989ad48a21492842087
+[TRACE] Step 2 (Init J0):       J0 = IV || 32'd1 = 00000000000000000000000000000001
+Time=291000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=298000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TB] Fed Plaintext block 1: 00000000000000000000000000000000
+[DEBUG] Time=304000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=310000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=317000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=323000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=330000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=336000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=342000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=349000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=355000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=362000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=368000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=374000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=381000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[DEBUG] Time=387000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=1 | stall_aes=0
+[TB] Received Ciphertext block 1: cea7403d4d606b6e074ec5d3baf39d18
+Time=387000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=394000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = 00000000000000000000000000000002 -> Keystream = cea7403d4d606b6e074ec5d3baf39d18
+[TRACE] Step 4 (Data XOR):      Plaintext = 00000000000000000000000000000000 -> Ciphertext = cea7403d4d606b6e074ec5d3baf39d18
+Time=394000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=400000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=406000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 5 (GHASH block):   Accumulator Y = fd6ab7586e556dba06d69cfe6223b262
+[DEBUG] Time=413000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=413000d | rst_n=1 | state=6 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=419000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=426000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=432000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 6 (GHASH Lengths): AAD_len_bits || PT_len_bits = 00000000000000000000000000000080 -> Accumulator Y = 83de425c5edc5d498f382c441041ca92
+Time=432000d | rst_n=1 | state=7 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=438000 | state=7 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=445000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=451000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=458000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=464000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=470000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=477000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=483000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=490000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=496000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=502000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=509000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=515000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=522000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=528000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=534000 | state=7 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 7 (Tag Enc):       EJ0 = AES(K, J0) = 530f8afbc74536b9a963b4f1c4cb738b
+[TB] Received Tag T: d0d1c8a799996bf0265b98b5d48ab919
+========================================================
+Time=534000d | rst_n=1 | state=8 | ready=0 | start=0 | data_ready=0 | done=1
+[DEBUG] Time=541000 | state=8 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=541000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=547000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=554000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=560000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=566000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=573000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=579000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=586000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=592000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=598000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=605000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=611000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=618000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=624000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=630000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+
+========================================================
+  STARTING TEST CASE 2
+========================================================
+Time=634000d | rst_n=0 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=637000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=643000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=650000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=656000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=662000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=669000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=674000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=675000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=675000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=682000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=682000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=688000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=688000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=694000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=694000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=701000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=701000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=707000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=707000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=714000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=714000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=720000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=720000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[TB] Starting GCM encryption...
+Time=721000d | rst_n=1 | state=0 | ready=1 | start=1 | data_ready=0 | done=0
+[DEBUG] Time=726000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=726000d | rst_n=1 | state=1 | ready=0 | start=1 | data_ready=0 | done=0
+Time=727000d | rst_n=1 | state=1 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=733000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=739000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=746000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=752000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=758000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=765000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=771000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=778000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=784000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=790000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=797000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=803000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=810000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=816000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=822000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=829000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 0 (Key Expansion): Completed successfully.
+Time=829000d | rst_n=1 | state=2 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=835000 | state=2 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=842000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=848000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=854000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=861000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=867000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=874000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=880000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=886000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=893000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=899000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=906000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=912000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=918000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=925000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=931000 | state=2 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 1 (Subkey H):      H = AES(K, 0) = acbef20579b4b8ebce889bac8732dad7
+[TRACE] Step 2 (Init J0):       J0 = IV || 32'd1 = cafebabefacedbaddecaf88800000001
+Time=931000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=938000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=944000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=950000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=957000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   2 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=963000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   2 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=970000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   3 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=976000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   3 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=982000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=989000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=995000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1002000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1008000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1014000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1021000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1027000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1027000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1034000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000002 -> Keystream = 8b1cf3d561d27be251263e66857164e7
+[TB] Fed Plaintext block 1: d9313225f88406e5a55909c5aff5269a
+[TB] Received Ciphertext block 1: 522dc1f099567d07f47f37a32a84427d
+Time=1035000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1040000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000002 -> Keystream = 8b1cf3d561d27be251263e66857164e7
+[TRACE] Step 4 (Data XOR):      Plaintext = d9313225f88406e5a55909c5aff5269a -> Ciphertext = 522dc1f099567d07f47f37a32a84427d
+Time=1040000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1046000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   1 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1046000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1053000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   1 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000003 -> Keystream = e29d258faad137135bd49280af645bd8
+[TRACE] Step 5 (GHASH block):   Accumulator Y = fcbefb78635d598eddaf982310670f35
+Time=1053000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext block 2: 86a7a9531534f7da2e4c303d8a318a72
+[TB] Received Ciphertext block 2: 643a8cdcbfe5c0c97598a2bd2555d1aa
+Time=1054000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1059000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000003 -> Keystream = e29d258faad137135bd49280af645bd8
+[TRACE] Step 4 (Data XOR):      Plaintext = 86a7a9531534f7da2e4c303d8a318a72 -> Ciphertext = 643a8cdcbfe5c0c97598a2bd2555d1aa
+Time=1059000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1066000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   2 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1066000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1072000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   2 | ghash_out_cnt=                   1 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000004 -> Keystream = 908c82ddcc65b26e887f85341f243d1d
+[TRACE] Step 5 (GHASH block):   Accumulator Y = 29de812309d3116a6eff7ec844484f3e
+Time=1072000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext block 3: 1c3c0c95956809532fcf0e2449a6b525
+[TB] Received Ciphertext block 3: 8cb08e48590dbb3da7b08b1056828838
+Time=1073000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1078000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   2 | ghash_out_cnt=                   2 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000004 -> Keystream = 908c82ddcc65b26e887f85341f243d1d
+[TRACE] Step 4 (Data XOR):      Plaintext = 1c3c0c95956809532fcf0e2449a6b525 -> Ciphertext = 8cb08e48590dbb3da7b08b1056828838
+Time=1078000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1085000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   3 | ghash_out_cnt=                   2 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1085000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1091000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   3 | ghash_out_cnt=                   2 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000005 -> Keystream = 749cf39639b79c5d06aa8d5b932fc7f8
+[TRACE] Step 5 (GHASH block):   Accumulator Y = 45fad9deeda9ea561b8f199c3613845b
+Time=1091000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext block 4: b16aedf5aa0de657ba637b391aafd255
+[TB] Received Ciphertext block 4: c5f61e6393ba7a0abcc9f662898015ad
+Time=1092000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1098000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   3 | ghash_out_cnt=                   3 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000005 -> Keystream = 749cf39639b79c5d06aa8d5b932fc7f8
+[TRACE] Step 4 (Data XOR):      Plaintext = b16aedf5aa0de657ba637b391aafd255 -> Ciphertext = c5f61e6393ba7a0abcc9f662898015ad
+Time=1098000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1104000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   3 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1110000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   3 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 5 (GHASH block):   Accumulator Y = ed95f8e164bf3213febc740f0bd9c6af
+[DEBUG] Time=1117000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1117000d | rst_n=1 | state=6 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1123000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1130000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1136000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 6 (GHASH Lengths): AAD_len_bits || PT_len_bits = 00000000000000000000000000000200 -> Accumulator Y = 4db870d37cb75fcb46097c36230d1612
+Time=1136000d | rst_n=1 | state=7 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1142000 | state=7 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1149000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1155000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1162000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1168000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1174000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1181000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1187000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1194000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1200000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1206000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1213000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1219000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1226000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1232000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1238000 | state=7 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 7 (Tag Enc):       EJ0 = AES(K, J0) = fd2caa16a5832e76aa132c1453eeda7e
+[TB] Received Tag T: b094dac5d93471bdec1a502270e3cc6c
+========================================================
+Time=1238000d | rst_n=1 | state=8 | ready=0 | start=0 | data_ready=0 | done=1
+[DEBUG] Time=1245000 | state=8 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1245000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1251000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1258000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1264000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1270000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1277000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1283000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1290000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1296000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1302000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1309000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1315000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1322000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1328000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1334000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+
+========================================================
+  STARTING TEST CASE 3
+========================================================
+Time=1338000d | rst_n=0 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1341000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1347000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1354000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1360000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1366000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1373000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1378000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1379000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1379000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1386000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1386000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1392000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1392000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1398000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1398000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1405000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1405000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1411000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1411000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1418000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1418000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1424000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1424000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[TB] Starting GCM encryption...
+Time=1425000d | rst_n=1 | state=0 | ready=1 | start=1 | data_ready=0 | done=0
+[DEBUG] Time=1430000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1430000d | rst_n=1 | state=1 | ready=0 | start=1 | data_ready=0 | done=0
+Time=1431000d | rst_n=1 | state=1 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1437000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1443000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1450000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1456000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1462000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1469000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1475000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1482000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1488000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1494000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1501000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1507000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1514000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1520000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1526000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1533000 | state=1 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 0 (Key Expansion): Completed successfully.
+Time=1533000d | rst_n=1 | state=2 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1539000 | state=2 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1546000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1552000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1558000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1565000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1571000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1578000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1584000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1590000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1597000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1603000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1610000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1616000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1622000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1629000 | state=2 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1635000 | state=2 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 1 (Subkey H):      H = AES(K, 0) = acbef20579b4b8ebce889bac8732dad7
+[TRACE] Step 2 (Init J0):       J0 = IV || 32'd1 = cafebabefacedbaddecaf88800000001
+Time=1635000d | rst_n=1 | state=3 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1642000 | state=3 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=0 | stall_aes=0
+[TB] Fed AAD block 1: feedfacedeadbeeffeedfacedeadbeef
+Time=1643000d | rst_n=1 | state=3 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1648000 | state=3 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=1 | stall_aes=0
+Time=1648000d | rst_n=1 | state=4 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1654000 | state=4 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1661000 | state=4 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1667000 | state=4 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 5 (GHASH AAD):     Accumulator Y = 5165d242c2592c0a6375e2622cf925d2
+Time=1667000d | rst_n=1 | state=3 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1674000 | state=3 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=0 | stall_aes=0
+[TB] Fed AAD block 2: abaddad2000000000000000000000000
+Time=1675000d | rst_n=1 | state=3 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1680000 | state=3 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=1 | stall_aes=0
+Time=1680000d | rst_n=1 | state=4 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1686000 | state=4 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1693000 | state=4 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1699000 | state=4 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 5 (GHASH AAD):     Accumulator Y = 8efa30ce83298b85fe71abefc0cdd01d
+Time=1699000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1706000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   0 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1712000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1718000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   1 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1725000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   2 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1731000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   2 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1738000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   3 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1744000 | state=5 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   3 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1750000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1757000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1763000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1770000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1776000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1782000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1789000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1795000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1795000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1802000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000002 -> Keystream = 8b1cf3d561d27be251263e66857164e7
+[TB] Fed Plaintext block 1: d9313225f88406e5a55909c5aff5269a
+[TB] Received Ciphertext block 1: 522dc1f099567d07f47f37a32a84427d
+Time=1803000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1808000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   0 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000002 -> Keystream = 8b1cf3d561d27be251263e66857164e7
+[TRACE] Step 4 (Data XOR):      Plaintext = d9313225f88406e5a55909c5aff5269a -> Ciphertext = 522dc1f099567d07f47f37a32a84427d
+Time=1808000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1814000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   1 | ghash_out_cnt=                   0 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1814000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1821000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   1 | ghash_out_cnt=                   0 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000003 -> Keystream = e29d258faad137135bd49280af645bd8
+[TRACE] Step 5 (GHASH block):   Accumulator Y = abe07e0bb62354177480b550f9f6cdcc
+Time=1821000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext block 2: 86a7a9531534f7da2e4c303d8a318a72
+[TB] Received Ciphertext block 2: 643a8cdcbfe5c0c97598a2bd2555d1aa
+Time=1822000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1827000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   1 | ghash_out_cnt=                   1 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000003 -> Keystream = e29d258faad137135bd49280af645bd8
+[TRACE] Step 4 (Data XOR):      Plaintext = 86a7a9531534f7da2e4c303d8a318a72 -> Ciphertext = 643a8cdcbfe5c0c97598a2bd2555d1aa
+Time=1827000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1834000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   2 | ghash_out_cnt=                   1 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1834000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1840000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   2 | ghash_out_cnt=                   1 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000004 -> Keystream = 908c82ddcc65b26e887f85341f243d1d
+[TRACE] Step 5 (GHASH block):   Accumulator Y = 3978e4f141b95f3b4699756b1c3c2082
+Time=1840000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext block 3: 1c3c0c95956809532fcf0e2449a6b525
+[TB] Received Ciphertext block 3: 8cb08e48590dbb3da7b08b1056828838
+Time=1841000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1846000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   2 | ghash_out_cnt=                   2 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000004 -> Keystream = 908c82ddcc65b26e887f85341f243d1d
+[TRACE] Step 4 (Data XOR):      Plaintext = 1c3c0c95956809532fcf0e2449a6b525 -> Ciphertext = 8cb08e48590dbb3da7b08b1056828838
+Time=1846000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1853000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   3 | ghash_out_cnt=                   2 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1853000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1859000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   3 | ghash_out_cnt=                   2 | data_ready=1 | data_val_i=0 | stall_aes=1
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000005 -> Keystream = 749cf39639b79c5d06aa8d5b932fc7f8
+[TRACE] Step 5 (GHASH block):   Accumulator Y = 8abf3c48901debe76837d8a05c7d6e87
+Time=1859000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[TB] Fed Plaintext block 4: b16aedf5aa0de657ba637b3900000000
+[TB] Received Ciphertext block 4: c5f61e6393ba7a0abcc9f66200000000
+Time=1860000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=1 | done=0
+[DEBUG] Time=1866000 | state=5 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   3 | ghash_out_cnt=                   3 | data_ready=1 | data_val_i=1 | stall_aes=0
+[TRACE] Step 3 (CTR Enc):       ctr = cafebabefacedbaddecaf88800000005 -> Keystream = 749cf39639b79c5d06aa8d5b932fc7f8
+[TRACE] Step 4 (Data XOR):      Plaintext = b16aedf5aa0de657ba637b3900000000 -> Ciphertext = c5f61e6393ba7a0abcc9f662932fc7f8
+Time=1866000d | rst_n=1 | state=5 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1872000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   3 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1878000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   3 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 5 (GHASH block):   Accumulator Y = 9249beaf520c48b912fa120bbf391dc8
+[DEBUG] Time=1885000 | state=5 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=1885000d | rst_n=1 | state=6 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1891000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1898000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1904000 | state=6 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 6 (GHASH Lengths): AAD_len_bits || PT_len_bits = 00000000000000a000000000000001e0 -> Accumulator Y = 8bd0c4d8aacd391e67cca447e8c38f65
+Time=1904000d | rst_n=1 | state=7 | ready=0 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=1910000 | state=7 | aes_val_in=1 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1917000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1923000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1930000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1936000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1942000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1949000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1955000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1962000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1968000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1974000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1981000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1987000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=1994000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2000000 | state=7 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2006000 | state=7 | aes_val_in=0 | aes_val_out=1 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[TRACE] Step 7 (Tag Enc):       EJ0 = AES(K, J0) = fd2caa16a5832e76aa132c1453eeda7e
+[TB] Received Tag T: 76fc6ece0f4e1768cddf8853bb2d551b
+========================================================
+Time=2006000d | rst_n=1 | state=8 | ready=0 | start=0 | data_ready=0 | done=1
+[DEBUG] Time=2013000 | state=8 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+Time=2013000d | rst_n=1 | state=0 | ready=1 | start=0 | data_ready=0 | done=0
+[DEBUG] Time=2019000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2026000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2032000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2038000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2045000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2051000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2058000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2064000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2070000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2077000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2083000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2090000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2096000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0
+[DEBUG] Time=2102000 | state=0 | aes_val_in=0 | aes_val_out=0 | aes_in_cnt=                   4 | aes_out_cnt=                   4 | ghash_out_cnt=                   4 | data_ready=0 | data_val_i=0 | stall_aes=0

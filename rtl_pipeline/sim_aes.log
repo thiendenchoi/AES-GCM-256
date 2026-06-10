@@ -1,0 +1,14 @@
+VCD info: dumpfile tb_aes_256_pipelined.vcd opened for output.
+==================================================================
+  AES-256 Pipelined Core Unit Testbench
+==================================================================
+[TB] Loading Key: 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+[TB] Key expansion completed. System ready.
+[TB] Fed block 0: 00112233445566778899aabbccddeeff
+[TB] Fed block 1: 123456789abcdef00123456789abcdef
+[TB] Fed block 2: ffffffffffffffffffffffffffffffff
+[TB] Waiting for pipeline outputs (15 cycles latency)...
+[TB] Output 0: 8ea2b7ca516745bfeafc49904b496089 (Expected: 8ea2b7ca516745bfeafc49904b496089)
+[TB] Block 0 MATCH!
+[TB] Output 1: 743487575037eedca8313549b29a065c (Expected cipher value for input 1)
+[TB] Output 2: e999e41d4ca770da5387117b5d8f57ee (Expected cipher value for input 2, last_o=1)
